@@ -1,0 +1,8 @@
+package strategy;
+
+public class SwordBehavior implements WeaponBehavior {
+    @Override
+    public void useWeapon() {
+        System.out.println("swing the sword");
+    }
+}
