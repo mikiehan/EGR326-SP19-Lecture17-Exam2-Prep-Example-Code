@@ -15,8 +15,8 @@ public class ListOfList {
 
     //Inner class that implements Iterator interface
     private class MyIterator implements Iterator<String> {
-        private int outerIndex;
-        private int innerIndex;
+        private int outerIndex = 0;
+        private int innerIndex = 0;
 
         public MyIterator(){
             outerIndex = 0;

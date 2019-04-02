@@ -19,10 +19,4 @@ public class Queen extends Character{
             choice = 0;
         }
     }
-
-    @Override
-    public void fight() {
-        setWeapon();
-        weapon.useWeapon();
-    }
 }
